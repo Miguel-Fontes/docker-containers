@@ -6,8 +6,7 @@ Para construir as imagens, navegue até o diretório desejado e execute o comand
 
     docker build .
 
-Para mais constrole sobre o taggeamento das imagens construídas, utilize:
+Para taggear as imagens diretamente no build, utilize:
 
     docker build -t <tag-name> .
     docker build -t miguelmf/docker-haskell
-
